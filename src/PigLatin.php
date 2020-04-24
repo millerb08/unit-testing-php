@@ -10,13 +10,13 @@ class PigLatin{
         $firstTwoLetters = substr($word, 0 ,2);
         $firstThreeLetters = substr($word, 0 ,3);
         
-        if (in_array($firstTwoLetters, $this->diagraphs)) {
-            $newWord = substr($word,2);
-            $newWord .= $firstTwoLetters. "ay";
-        }else if(in_array($firstThreeLetters, $this->trigraphs)){
+        if(in_array($firstThreeLetters, $this->trigraphs)){
             $newWord = substr($word,3);
             $newWord .= $firstThreeLetters. "ay";
-        }else{
+        }else if (in_array($firstTwoLetters, $this->diagraphs)) {
+            $newWord = substr($word,2);
+            $newWord .= $firstTwoLetters. "ay";
+        }else {
             $newWord = substr($word,1);
             $newWord .= $firstLetter. "ay";
         }

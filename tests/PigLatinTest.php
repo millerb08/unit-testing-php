@@ -35,7 +35,7 @@ class PigLatinTest extends TestCase{
             "PigLatin conversion did not work correctly"
         );
     }
-
+    /** @test */
     function convertTrigraphWordToPigLatin(){
 
         $word = "streak";
