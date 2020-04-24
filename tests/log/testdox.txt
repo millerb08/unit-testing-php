@@ -1,3 +1,4 @@
 Pig Latin
- [ ] Convert single starting consonant word to pig latin
+ [x] Convert single starting consonant word to pig latin
+ [x] Convert diagraph word to pig latin
 
