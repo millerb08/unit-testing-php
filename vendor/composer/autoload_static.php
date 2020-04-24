@@ -24,15 +24,29 @@ class ComposerStaticInitfcdcfaa82306677eff8452c58dd02930
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Component\\Yaml\\' => 23,
         ),
         'P' => 
         array (
             'Prophecy\\' => 9,
         ),
+        'N' => 
+        array (
+            'Noodlehaus\\' => 11,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+        ),
+        'C' => 
+        array (
+            'Codedungeon\\PHPUnitPrettyResultPrinter\\' => 39,
+            'Codedungeon\\PHPCliColors\\' => 25,
+        ),
+        'B' => 
+        array (
+            'Bakyt\\' => 6,
         ),
     );
 
@@ -51,9 +65,17 @@ class ComposerStaticInitfcdcfaa82306677eff8452c58dd02930
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'Noodlehaus\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hassankhan/config/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -62,6 +84,18 @@ class ComposerStaticInitfcdcfaa82306677eff8452c58dd02930
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Codedungeon\\PHPUnitPrettyResultPrinter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codedungeon/phpunit-result-printer/src',
+        ),
+        'Codedungeon\\PHPCliColors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codedungeon/php-cli-colors/src',
+        ),
+        'Bakyt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2bj/phanybar/src',
         ),
     );
 
