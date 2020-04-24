@@ -50,4 +50,20 @@ class PigLatinTest extends TestCase{
             "PigLatin conversion did not work correctly"
         );
     }
+
+    /** @test */
+    function convertStartingVowelToPigLatin(){
+
+        $word = "unit";
+        $expectedResult = "unitay";
+
+        $pigLatin = new PigLatin();
+        $result = $pigLatin->convert($word);
+
+        $this->assertEquals(
+            $expectedResult,
+            $result,
+            "PigLatin conversion did not work correctly"
+        );
+    }
 }
